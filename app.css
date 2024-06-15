@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sec .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+.parent{
+    width: 900px;
+    background-color: rgb(236, 232, 232);
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sec .container .parent .box{
+    width: 270px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px;
+}
+.parent .box .i1{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f66f4;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0px;
+}
+.sec .parent .box h1{
+    padding: 10px 0px;
+}
+.sec .parent .box p{
+    font-size: 1.3rem;
+    color: rgb(214, 205, 205);
+    padding: 10px 5px;
+}
+.sec .parent .box hr{
+    background-color:#0f66f4;
+    width: 250px;
+    height: 3px;
+    border: 0;
+    position: relative;
+    top: 20px ;
+}
+.sec .parent button{
+    width: 200px;
+    height: 55px;
+    background-color: #0f66f4;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+.sec .parent button:hover{
+    background-color: #0c60e7;
+}
+@media screen and (max-width : 920px) {
+    .parent{
+        width: 760px;
+    }
+    .sec .container .parent .box{
+        width: 220px;
+    }
+    .sec .parent .box hr{
+        width: 200px;
+    }
+}
